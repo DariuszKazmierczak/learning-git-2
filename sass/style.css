@@ -23,12 +23,17 @@
 	font-size: 18px;
 	font-weight: normal;
 	font-style: italic;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .poem-paragraph {
 	margin: 20px 0;
 	letter-spacing: 1px;
+}
+
+.poem-paragraph :hover {
+	font-size: 19px;
+	transition: 0.3s all;
 }
 
 .poem-paragraph__footer {
